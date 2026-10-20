@@ -2,6 +2,7 @@
 Looking to create a script based on the concept which Frank and I worked on a couple of weeks ago to generate a VASI/TRM Report given one or more VASI ID's
 ---
 **Here's the prompt**
+
 Prompt me for a list of one or more VASI ID's (e.g. 1414, 2341, 1415).
 For each id given, using the following link for VASI,
 [https://vaww.vear.ea.oit.va.gov/#system_and_application_domain_vasystems_na.htm](https://vaww.vear.ea.oit.va.gov/#system_and_application_domain_vasystems_na.htm)
