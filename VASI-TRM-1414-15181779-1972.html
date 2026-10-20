@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VASI/TRM Report — 1414, 15181779, 1972</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #1b2733;
+      background: #f3f6f8;
+    }
+    body {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.5;
+    }
+    header, article {
+      background: #fff;
+      border: 1px solid #d7e0e7;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    h1, h2 { color: #17365d; }
+    h1 { margin-top: 0; font-size: 1.65rem; }
+    h2 { margin-top: 0; font-size: 1.4rem; }
+    h3 { margin-top: 1.6rem; color: #274b6d; }
+    .metadata { display: flex; flex-wrap: wrap; gap: .5rem 2rem; }
+    .summary, .technology {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    th, td {
+      border: 1px solid #cbd5dd;
+      padding: .65rem .75rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #eaf1f6; }
+    .technology { min-width: 950px; }
+    .table-wrap { overflow-x: auto; }
+    a { color: #075a9c; }
+    .note { color: #384b5c; }
+    @media print {
+      :root { background: #fff; }
+      body { max-width: none; padding: 0; }
+      header, article { border: 0; padding: 0; }
+      article { break-before: page; }
+      article:first-of-type { break-before: auto; }
+      .table-wrap { overflow: visible; }
+      .technology { min-width: 0; font-size: 9pt; }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VASI/TRM Report</h1>
+    <div class="metadata">
+      <div><strong>Prepared:</strong> 2026-10-20</div>
+      <div><strong>Quarter evaluated:</strong> CY2026 Q4</div>
+      <div><strong>VASI IDs:</strong> 1414, 15181779, 1972</div>
+    </div>
+  </header>
+
+  <article>
+    <h2>VASI/TRM Report for Medication Order Check Healthcare Application - 1414</h2>
+    <div class="metadata">
+      <div><strong>Prepared:</strong> 2026-10-20</div>
+      <div><strong>Quarter evaluated:</strong> CY2026 Q4</div>
+      <div><strong>Coverage:</strong> All 11 technology rows shown in the VASI Technical View are included.</div>
+    </div>
+    <h3>Summary</h3>
+    <div class="table-wrap"><table class="summary">
+      <thead><tr><th>System Name</th><th>VASI ID / VASI Record</th><th>IT Product Manager</th></tr></thead>
+      <tbody><tr>
+        <td>Medication Order Check Healthcare Application</td>
+        <td><a href="https://vaww.vear.ea.oit.va.gov/#system_and_application_domain_defs_system_23759.htm" target="_blank" rel="noopener noreferrer">1414 — VASI record</a></td>
+        <td>Griles, Sherry</td>
+      </tr></tbody>
+    </table></div>
+    <p><strong>Sources:</strong> <a href="https://vaww.vear.ea.oit.va.gov/#system_and_application_domain_vasystems_na.htm" target="_blank" rel="noopener noreferrer">VEAR system inventory</a> · <a href="https://vaww.vear.ea.oit.va.gov/#system_and_application_domain_defs_system_23759.htm" target="_blank" rel="noopener noreferrer">VASI record 1414</a>. The manager is from System View; technology names and recorded versions are from Technical View.</p>
+    <div class="table-wrap"><table class="technology">
+      <thead><tr><th>Technology name</th><th>Current version (VASI)</th><th>TRM link</th><th>Q4 2026 decision for deployed version</th><th>Authorized Q4 2026 releases if current version is unauthorized or not exactly matched</th></tr></thead>
+      <tbody>
+        <tr><td>Red Hat Enterprise Linux (RHEL)</td><td><code>8.x</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=6367&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td><strong>Authorized w/ Constraints</strong> <code>[18, 20, 22, 24]</code></td><td>—</td></tr>
+        <tr><td>Java Enterprise Edition (Java EE)</td><td><code>8 (aka 1.8)</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=8&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td><strong>Authorized w/ Constraints</strong> <code>[13, 15, 16, 17, 18]</code></td><td>—</td></tr>
+        <tr><td>Another Neat Tool (ANT)</td><td><code>1.10.x</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=23&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td><strong>Authorized w/ Constraints</strong> <code>[3, 5, 6, 7]</code></td><td>—</td></tr>
+        <tr><td>Oracle Database</td><td><code>19.x (12.2.0.3.x)</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=9&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td><strong>Authorized w/ Constraints</strong> <code>[31, 34, 36, 38, 39, 40, 41]</code></td><td>—</td></tr>
+        <tr><td>WebLogic Server</td><td><code>14c (14.1.x)</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=7&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td><strong>Unauthorized, Conditions Required</strong> <code>[b]</code></td><td><code>15c (15.1.x)</code> — <strong>Authorized w/ Constraints</strong> <code>[12, 13, 18, 19, 21, 22]</code></td></tr>
+        <tr><td>Enterprise Security Application Programming Interface (ESAPI) for Java Enterprise Edition</td><td><code>v2.5.2.0</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=7424&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>TRM release <code>2.5.x</code> — <strong>Unauthorized, Conditions Required</strong> <code>[a]</code></td><td><code>2.7.x</code> — <strong>Authorized w/ Constraints</strong> <code>[7, 9, 10]</code></td></tr>
+        <tr><td>Apache Commons Collections</td><td><code>v4-4.4.jar</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=7968&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>TRM release <code>4.4</code> — <strong>Unauthorized, Conditions Required</strong> <code>[a]</code></td><td><code>4.5.x</code> — <strong>Authorized w/ Constraints</strong> <code>[4, 5, 7, 8]</code></td></tr>
+        <tr><td>Aspect-Oriented Programming (AOP)</td><td><code>1</code></td><td><a href="https://trm.oit.va.gov/StandardPage.aspx?tid=151&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>No exact matching release row verified for VASI version <code>1</code>. The tab lists <code>1.0</code> as <strong>Authorized</strong>; this is not treated as a verified match.</td><td><code>1.0</code> — <strong>Authorized</strong>. No equivalence to VASI <code>1</code> is inferred.</td></tr>
+        <tr><td>Java Architecture for XML Binding (JAXB) Reference</td><td><code>v3.0.2</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=45&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>TRM release <code>3.0.x</code> — <strong>Authorized w/ Constraints</strong> <code>[2, 4, 5, 6]</code></td><td>—</td></tr>
+        <tr><td>Log4j</td><td><code>2.23.1.jar</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=15&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>TRM release <code>2.23.x</code> — <strong>Unauthorized, Conditions Required</strong> <code>[b]</code></td><td><code>2.25.x</code> — <strong>Authorized w/ Constraints</strong> <code>[8, 11, 12, 13, 15, 16]</code></td></tr>
+        <tr><td>Spring Framework</td><td><code>5.0.8</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=12&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>TRM release <code>5.x</code> — <strong>Unauthorized, Conditions Required</strong> <code>[a]</code></td><td><code>6.x</code> — <strong>Authorized w/ Constraints</strong> <code>[6, 7, 8, 9, 10]</code></td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">The release mappings shown (such as <code>x</code> and <code>+</code>) follow the version-coverage explanations on the linked TRM Decision tabs. Constraint identifiers are reproduced as displayed; the associated descriptions are on each linked tab.</p>
+  </article>
+
+  <article>
+    <h2>VASI/TRM Report for VistA Pharmacy - Outpatient Pharmacy - 1972</h2>
+    <div class="metadata">
+      <div><strong>Prepared:</strong> 2026-10-20</div>
+      <div><strong>Quarter evaluated:</strong> CY2026 Q4</div>
+      <div><strong>Coverage:</strong> All 7 technology rows shown in the VASI Technical View are included.</div>
+    </div>
+    <h3>Summary</h3>
+    <div class="table-wrap"><table class="summary">
+      <thead><tr><th>System Name</th><th>VASI ID / VASI Record</th><th>IT Product Manager</th></tr></thead>
+      <tbody><tr>
+        <td>VistA Pharmacy - Outpatient Pharmacy</td>
+        <td><a href="https://vaww.vear.ea.oit.va.gov/#system_and_application_domain_defs_system_23552.htm" target="_blank" rel="noopener noreferrer">1972 — VASI record</a></td>
+        <td>Rebers, Ryan</td>
+      </tr></tbody>
+    </table></div>
+    <p><strong>Sources:</strong> <a href="https://vaww.vear.ea.oit.va.gov/#system_and_application_domain_vasystems_na.htm" target="_blank" rel="noopener noreferrer">VEAR system inventory</a> · <a href="https://vaww.vear.ea.oit.va.gov/#system_and_application_domain_defs_system_23552.htm" target="_blank" rel="noopener noreferrer">VASI record 1972</a>. The manager is from System View; technology names and recorded versions are from Technical View.</p>
+    <div class="table-wrap"><table class="technology">
+      <thead><tr><th>Technology name</th><th>Current version (VASI)</th><th>TRM link</th><th>Q4 2026 decision for deployed version</th><th>Authorized Q4 2026 releases if current version is unauthorized or not exactly matched</th></tr></thead>
+      <tbody>
+        <tr><td>ISO/IEC M Programming Standard</td><td><code>11756:1999</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=10986&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>The TRM lists <code>ISO/IEC 11756:1999</code> as <strong>Authorized</strong>. Exact string match to the VASI version is unverified.</td><td>The TRM also lists <code>ISO/IEC 15851:1999</code> and <code>ISO/IEC 15852:1999</code> as <strong>Authorized</strong>. These are not asserted to match the VASI version.</td></tr>
+        <tr><td>Massachusetts General Hospital Utility Multi-Programming System (MUMPS)</td><td><code>ISO/IEC 11756:1999</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=6402&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td><strong>Authorized</strong></td><td>—</td></tr>
+        <tr><td>Red Hat Enterprise Linux (RHEL)</td><td><code>8.x</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=6367&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td><strong>Authorized w/ Constraints</strong> <code>[18, 20, 22, 24]</code></td><td>—</td></tr>
+        <tr><td>Intuitive Reliable Interoperative Scalable (IRIS) for Health</td><td><code>2022.x</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=14907&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>No exact <code>2022.x</code> row is shown. The listed <code>2022.1.x (EM)</code>, <code>2022.2.x (CD)</code>, and <code>2022.3.x (CD)</code> rows are each <strong>Unauthorized, Conditions Required</strong> <code>[a]</code>.</td><td><code>2024.1.x (EM)</code> — <strong>Authorized w/ Constraints</strong> <code>[15, 16, 22, 24, 25, 26, 28]</code></td></tr>
+        <tr><td>Another Neat Tool (ANT)</td><td><code>1.10.9</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=23&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>TRM release <code>1.10.x</code> — <strong>Authorized w/ Constraints</strong> <code>[3, 5, 6, 7]</code></td><td>—</td></tr>
+        <tr><td>Apache Portable Document Format (PDF) Box</td><td><code>2.0.24</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=15257&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td>TRM release <code>2.0.15+</code> — <strong>Unauthorized, Conditions Required</strong> <code>[a]</code></td><td><strong>No Q4 2026 release is explicitly marked Authorized or Authorized w/ Constraints.</strong> Matrix rows <code>1.x</code>, <code>2.0.x</code>, <code>2.0.15+</code>, and <code>3.0.x</code> are all unauthorized for Q4 2026.</td></tr>
+        <tr><td>Rapid Application Development (RAD) Studio</td><td><code>10.4.x Sydney</code></td><td><a href="https://trm.oit.va.gov/ToolPage.aspx?tid=6317&amp;tab=2" target="_blank" rel="noopener noreferrer">TRM Decision tab</a></td><td><strong>Unauthorized, Conditions Required</strong> <code>[a]</code></td><td><code>12.x Athens</code> — <strong>Authorized w/ Constraints</strong> <code>[10, 16, 22, 23, 24, 25, 27, 28, 29]</code></td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">The <code>1.10.x</code> and <code>2.0.15+</code> release mappings follow the version-coverage explanations on the linked TRM Decision tabs. Constraint identifiers are reproduced as displayed; their associated descriptions are available on each linked tab.</p>
+  </article>
+</body>
+</html>
